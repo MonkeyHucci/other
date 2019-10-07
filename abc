@@ -1,0 +1,130 @@
+var mutationObserver = new MutationObserver(function(mutations) {
+	if(document.getElementById("BID-19").innerText <= 39.9) {
+		alert("BID");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("BVH-19").innerText <= 71.4) {
+		alert("BVH");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("CTD-19").innerText <= 89.9) {
+		alert("CTD");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("CTG-19").innerText <= 20.15) {
+		alert("CTG");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("DPM-19").innerText <= 13.9) {
+		alert("DPM");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("EIB-19").innerText <= 16.5) {
+		alert("EIB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("FPT-19").innerText <= 55.5) {
+		alert("FPT");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("GAS-19").innerText <= 99.0) {
+		alert("GAS");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("GMD-19").innerText <= 27.0) {
+		alert("GMD");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("HDB-19").innerText <= 27.0) {
+		alert("HDB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("HPG-19").innerText <= 20.9) {
+		alert("HPG");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("MBB-19").innerText <= 22.25) {
+		alert("MBB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("MSN-19").innerText <= 76.2) {
+		alert("MSN");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("MWG-19").innerText <= 120.4) {
+		alert("MWG");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("NVL-19").innerText <= 62.8) {
+		alert("NVL");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("PNJ-19").innerText <= 79.2) {
+		alert("PNJ");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("REE-19").innerText <= 36.75) {
+		alert("REE");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("ROS-19").innerText <= 25.45) {
+		alert("ROS");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("SAB-19").innerText <= 253.2) {
+		alert("SAB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("SBT-19").innerText <= 17.55) {
+		alert("SBT");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("SSI-19").innerText <= 21.3) {
+		alert("SSI");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("STB-19").innerText <= 10.25) {
+		alert("STB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("TCB-19").innerText <= 23.2) {
+		alert("TCB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VCB-19").innerText <= 82.1) {
+		alert("VCB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VHM-19").innerText <= 88.1) {
+		alert("VHM");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VIC-19").innerText <= 116.2) {
+		alert("VIC");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VJC-19").innerText <= 136.2) {
+		alert("VJC");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VNM-19").innerText <= 126.9) {
+		alert("VNM");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VPB-19").innerText <= 21.9) {
+		alert("VPB");
+		mutationObserver.disconnect();
+	}
+	if(document.getElementById("VRE-19").innerText <= 31.15) {
+		alert("VRE");
+		mutationObserver.disconnect();
+	}
+});
+mutationObserver.observe(document.documentElement, {
+  attributes: true,
+  characterData: true,
+  childList: true,
+  subtree: true,
+  attributeOldValue: true,
+  characterDataOldValue: true
+});
